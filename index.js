@@ -16,6 +16,19 @@ function PiWeatherStation(log, config) {
 
 PiWeatherStation.prototype = {
 
+  httpRequest: function(url, method, callback) {
+    request({
+      url: url,
+      method: method
+    },
+    function (error, response, body) {
+
+      var data = JSON.parse(body);
+
+      callback(error, response, data)
+    })
+  },
+
   ctof: function(c){
     return c * 1.8000 + 32.00;
   },
