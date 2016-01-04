@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-pi-weather station",
+  "version": "0.0.1",
+  "description": "PiThermostat plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeffmcfadden/homebridge-pi-weather-station.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jeffmcfadden/homebridge-pi-weather-station/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
