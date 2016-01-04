@@ -14,7 +14,7 @@ function PiWeatherStation(log, config) {
   this.url         = config["url"];
 }
 
-PiThermostatAccessory.prototype = {
+PiWeatherStation.prototype = {
 
   ctof: function(c){
     return c * 1.8000 + 32.00;
