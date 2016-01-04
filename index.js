@@ -4,7 +4,7 @@ var Service, Characteristic;
 module.exports = function(homebridge){
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-pi-weather-station", "PiWeatherStation", PiThermostatAccessory);
+  homebridge.registerAccessory("homebridge-pi-weather-station", "PiWeatherStation", PiWeatherStation);
 }
 
 function PiWeatherStation(log, config) {
