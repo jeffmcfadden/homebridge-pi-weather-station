@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-pi-weather station",
+  "name": "homebridge-pi-weather-station",
   "version": "0.0.1",
   "description": "PiThermostat plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
